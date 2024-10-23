@@ -12,10 +12,10 @@ const Home = () => {
           Game!
         </h1>
         <p className="mt-4 text-blue-500 text-3xl sm:text-5xl">
-          Play with your friends in real-time. And chat.
+          Play with your friends in real-time!.
         </p>
         <Link to={"/game"} className="p-3 rounded-lg bg-blue-500 w-max mt-5">
-          Lets play
+          Lets play!
         </Link>
       </div>
       <div className="h-full flex justify-center items-center">
