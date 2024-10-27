@@ -5,9 +5,9 @@ import game from "../assets/game.png";
 
 const Home = () => {
   return (
-    <div className="w-full h-full flex items-center justify-center p-5 md:p-10 md:gap-5 gap-2 max-md:flex-col">
+    <div className="w-full flex items-center bg-black justify-center p-5 md:p-10 md:gap-5 gap-2 max-md:flex-col">
       <div className="w-full h-full text-center bg-black flex flex-col justify-center items-center flex-1">
-        <h1 className="w-full  text-5xl sm:text-5xl lg:text-7xl text-center text-red-700 font-bold break-words">
+        <h1 className="w-full  text-5xl sm:text-5xl lg:text-7xl text-center text-red-700 font-bold break-words mt-10">
           Welcome to the <p className="text-blue-500">Tic-Tac-Toe-Online</p>{" "}
           Game!
         </h1>
